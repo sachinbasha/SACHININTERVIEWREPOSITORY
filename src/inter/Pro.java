@@ -12,12 +12,12 @@ public class Pro {
 		for(int i=0;i<ch.length;i++) {
 			map.put(i, ch[i]);
 		}
-		TreeSet<Character>sort1=new TreeSet<Character>();
+		TreeSet<Character>sort2=new TreeSet<Character>();
 		
 	      for(Entry<Integer, Character> k:map.entrySet()) {
-	    	  sort1.add(k.getValue());
+	    	  sort2.add(k.getValue());
 	      }
-	      System.out.print(sort1+" ");
+	      System.out.print(sort2+" ");
 	      
 	}
 }
